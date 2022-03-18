@@ -42,3 +42,30 @@
     font-family: 'Roboto';
     font-weight: 300;
 }
+
+.previous_next {
+    margin: 0 180px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    border-bottom: 1px solid #999;
+}
+
+.previous_next>a {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous_next>a:hover {
+    background-color: rgb(75,104,255,0.1);
+    transition: 0.5s;
+}
+
+.previous_next>a:nth-child(2) {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
