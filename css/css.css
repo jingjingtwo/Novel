@@ -1,0 +1,5 @@
+@import './main.css';
+@import './List.css';
+
+@import './List/Novel_List.css';
+@import './List/Novel_Contents.css';

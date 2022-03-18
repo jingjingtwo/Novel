@@ -1,0 +1,44 @@
+.Novel_Contents {
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    padding: 50px 0;
+    margin: 0 180px;
+}
+
+.Novel_Contents>div:nth-child(1) {
+    text-align: center;
+}
+
+.thumbnail {
+    width: 369px;
+    height: 312px;
+    border-radius: 15px;
+}
+
+.Novel_Contents>div:nth-child(1)>h1 {
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.Novel_Contents>div:nth-child(1)>h5 {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #999;
+    margin-bottom: 50px;
+}
+
+.Novel_Logo {
+    height: 30px;
+    width: 18px;
+    margin-bottom: 50px;
+}
+
+.Novel_Contents>p:nth-child(2) {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
